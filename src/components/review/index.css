@@ -1,0 +1,24 @@
+.review {
+  height: 50vh;
+  background: white;
+  padding: 20px;
+  height: 80vh;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+}
+.review-box {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  height: 25vh;
+  padding: 20px;
+  display: flex;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.rev-txt h4 {
+  font-weight: bold;
+  font-size: 18px;
+}

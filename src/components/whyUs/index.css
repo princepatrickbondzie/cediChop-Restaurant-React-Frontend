@@ -1,0 +1,52 @@
+.whyus {
+  background: white;
+  height: 100vh;
+  padding: 2rem;
+}
+.us {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-evenly;
+}
+
+.content h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2.9rem;
+  color: #192a56;
+  font-weight: bold;
+}
+.content p {
+  font-size: 1.3rem;
+}
+.icons-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin-top: 0.5rem;
+}
+
+.whyus .us .content .icons-container .icons {
+  background: #eee;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1 1 17rem;
+  padding: 1.5rem 1rem;
+}
+
+.whyus .us .content .icons-container .icons i {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+
+.whyus .us .content .icons-container .icons span {
+  font-size: 1.5rem;
+  color: var(--black);
+}
+.icons {
+  height: 3.5rem;
+}

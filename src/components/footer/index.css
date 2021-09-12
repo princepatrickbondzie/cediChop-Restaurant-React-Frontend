@@ -1,0 +1,46 @@
+.footer {
+  height: 35vh;
+  padding: 1rem;
+}
+.box-f-container {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18%;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+  /* gap: 1rem; */
+}
+.box-f {
+  margin: 20px;
+}
+.box-f h3 {
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.box-f a {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--light-color);
+}
+
+.box-f a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.footer .credit {
+  text-align: center;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: var(--black);
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer .credit span {
+  color: var(--green);
+}

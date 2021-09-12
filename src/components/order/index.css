@@ -1,0 +1,52 @@
+.order {
+  background: #eeeeee;
+  padding: 2rem;
+  /* height: 60vh; */
+}
+.form {
+  max-width: 50rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+}
+form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .inputBox .input {
+  width: 49%;
+}
+
+form .inputBox .input span {
+  display: block;
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+  color: var(--light-color);
+}
+
+form .inputBox .input input,
+form .inputBox .input textarea {
+  background: #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--black);
+  text-transform: none;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+form .inputBox .input input:focus,
+form .inputBox .input textarea:focus {
+  border: 0.1rem solid var(--green);
+}
+
+form .inputBox .input textarea {
+  height: 18rem;
+  resize: none;
+}
